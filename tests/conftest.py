@@ -7,9 +7,8 @@ from pathlib import Path
 import nibabel as nib
 import numpy as np
 import pydicom
-from pydicom.uid import ExplicitVRLittleEndian, generate_uid
-
 import pytest
+from pydicom.uid import ExplicitVRLittleEndian, generate_uid
 
 # Small fixture geometry for fast tests
 ROWS = 64
