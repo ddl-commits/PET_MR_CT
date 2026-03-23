@@ -82,6 +82,7 @@ class SegmentInfo:
     snomed_meaning: str
     category_code: str
     category_meaning: str
+    display_label: str  # User-friendly name shown in MIM/3D Slicer (e.g. "Liver")
 ```
 
 ### JSON Config Schema
@@ -96,7 +97,8 @@ class SegmentInfo:
       "snomed_code": "10200004",
       "snomed_meaning": "Liver structure",
       "category_code": "123037004",
-      "category_meaning": "Body structure"
+      "category_meaning": "Body structure",
+      "display_label": "Liver"
     },
     "spleen": { ... },
     ...
@@ -136,15 +138,21 @@ def create_dcmseg(
 
 Internal responsibilities (extracted from `scripts/trial_dcmseg.py`):
 
-1. **Load source DICOMs** — read all `.dcm` files, sort by `ImagePositionPatient[2]`
+1. **Load source DICOMs** — try `.dcm` files first; if none found, iterate all non-hidden files and attempt `pydicom.dcmread()`, catching `InvalidDicomError` (logged, skipped). Sort by `ImagePositionPatient[2]`.
 2. **Load NIfTI masks** — for each mask:
+   - Skip masks whose path does not exist, logging a warning
    - `nibabel.as_closest_canonical()` for consistent orientation
    - Flip axes 0 and 1 for RAS+ to LPS+ conversion
    - Transpose from (L, P, S) to (slice, row, col) for DICOM pixel array
    - Handle z-axis inversion when affine has negative z-spacing
+   - Verify dimensions match DICOM grid (rows, cols, slices); try rows/cols swap if transposed; raise `ValueError` if no match
 3. **Build segment descriptions** — via `terminology.get_segment_description()`
-4. **Create highdicom Segmentation** — binary type, `omit_empty_frames=True`
+4. **Create highdicom Segmentation** — binary type, `omit_empty_frames=True`, `series_number=100` (default), manufacturer/software metadata sourced from source DICOM series
 5. **Write to disk** — `seg.save_as(output_path)`
+
+**Error handling:**
+- Empty `nifti_masks` dict → raise `ValueError("No masks provided")`
+- All masks skipped (none exist on disk) → raise `ValueError("No valid masks found")`
 
 ### `convert/dcm_to_nifti.py` (stub)
 
@@ -208,7 +216,7 @@ pet-mr-ct convert rtstruct --source-dir PATH --mask-dir PATH --output PATH  (-> 
 ```
 
 - `convert` is a Click group under the main `pet-mr-ct` group
-- `dcmseg` command: discovers all `.nii.gz` files in `--mask-dir`, builds label→path dict from filenames (stem without `.nii.gz`), calls `create_dcmseg()`
+- `dcmseg` command: discovers all `.nii.gz` and `.nii` files in `--mask-dir`, builds label→path dict from filenames (stem without extension), calls `create_dcmseg()`
 - `rtstruct` command: prints message that RT-STRUCT is not yet implemented, exits cleanly
 
 ## Test Design
