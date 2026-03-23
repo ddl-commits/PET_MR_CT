@@ -1,0 +1,1 @@
+"""Tool-agnostic segmentation dispatcher."""

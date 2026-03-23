@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pet-mr-ct"
+version = "0.1.0"
+description = "DICOM-SEG pipeline: AI segmentation to MIM/3D Slicer round-trip"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Daniel Lee", email = "wowdanlee@gmail.com"},
+]
+
+dependencies = [
+    "pydicom>=2.4.0",
+    "highdicom>=0.22.0",
+    "pynetdicom>=2.0.0",
+    "nibabel>=5.2.0",
+    "numpy>=1.24.0",
+    "SimpleITK>=2.3.0",
+    "click>=8.1.0",
+    "rt-utils>=1.2.7",
+    "tqdm>=4.66.0",
+]
+
+[project.optional-dependencies]
+segment = [
+    "TotalSegmentator>=2.0.0",
+    "moosez",
+]
+register = [
+    "antspyx>=0.4.0",
+]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "ruff",
+    "mypy",
+]
+all = ["pet-mr-ct[segment,register,dev]"]
+
+[project.scripts]
+pet-mr-ct = "pet_mr_ct.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
