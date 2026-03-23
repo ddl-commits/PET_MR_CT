@@ -1,4 +1,824 @@
 {
-    "_comment": "TotalSegmentator label index → SNOMED CT mapping (CID 7151/7152/7153)",
-    "segments": {}
+    "_comment": "TotalSegmentator v2 label index → SNOMED CT mapping (CID 7151/7152/7153)",
+    "segments": {
+        "spleen": {
+            "snomed_code": "78961009",
+            "snomed_meaning": "Splenic structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Spleen"
+        },
+        "kidney_right": {
+            "snomed_code": "9846003",
+            "snomed_meaning": "Right kidney",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Kidney"
+        },
+        "kidney_left": {
+            "snomed_code": "18639004",
+            "snomed_meaning": "Left kidney",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Kidney"
+        },
+        "gallbladder": {
+            "snomed_code": "28231008",
+            "snomed_meaning": "Gallbladder structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Gallbladder"
+        },
+        "liver": {
+            "snomed_code": "10200004",
+            "snomed_meaning": "Liver structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Liver"
+        },
+        "stomach": {
+            "snomed_code": "69695003",
+            "snomed_meaning": "Stomach structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Stomach"
+        },
+        "pancreas": {
+            "snomed_code": "15776009",
+            "snomed_meaning": "Pancreatic structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Pancreas"
+        },
+        "adrenal_gland_right": {
+            "snomed_code": "68594002",
+            "snomed_meaning": "Right adrenal gland",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Adrenal Gland"
+        },
+        "adrenal_gland_left": {
+            "snomed_code": "55687005",
+            "snomed_meaning": "Left adrenal gland",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Adrenal Gland"
+        },
+        "lung_upper_lobe_left": {
+            "snomed_code": "44714003",
+            "snomed_meaning": "Upper lobe of left lung",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Lung Upper Lobe"
+        },
+        "lung_lower_lobe_left": {
+            "snomed_code": "41224006",
+            "snomed_meaning": "Lower lobe of left lung",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Lung Lower Lobe"
+        },
+        "lung_upper_lobe_right": {
+            "snomed_code": "45653009",
+            "snomed_meaning": "Upper lobe of right lung",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Lung Upper Lobe"
+        },
+        "lung_middle_lobe_right": {
+            "snomed_code": "72481006",
+            "snomed_meaning": "Middle lobe of right lung",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Lung Middle Lobe"
+        },
+        "lung_lower_lobe_right": {
+            "snomed_code": "266005",
+            "snomed_meaning": "Lower lobe of right lung",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Lung Lower Lobe"
+        },
+        "esophagus": {
+            "snomed_code": "32849002",
+            "snomed_meaning": "Esophageal structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Esophagus"
+        },
+        "trachea": {
+            "snomed_code": "44567001",
+            "snomed_meaning": "Tracheal structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Trachea"
+        },
+        "thyroid_gland": {
+            "snomed_code": "69748006",
+            "snomed_meaning": "Thyroid structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Thyroid Gland"
+        },
+        "small_bowel": {
+            "snomed_code": "30315005",
+            "snomed_meaning": "Small intestinal structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Small Bowel"
+        },
+        "duodenum": {
+            "snomed_code": "38848004",
+            "snomed_meaning": "Duodenal structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Duodenum"
+        },
+        "colon": {
+            "snomed_code": "71854001",
+            "snomed_meaning": "Colon structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Colon"
+        },
+        "urinary_bladder": {
+            "snomed_code": "89837001",
+            "snomed_meaning": "Urinary bladder structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Urinary Bladder"
+        },
+        "prostate": {
+            "snomed_code": "41216001",
+            "snomed_meaning": "Prostatic structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Prostate"
+        },
+        "kidney_cyst_left": {
+            "snomed_code": "309577001",
+            "snomed_meaning": "Cyst of left kidney",
+            "category_code": "49755003",
+            "category_meaning": "Morphologically altered structure",
+            "display_label": "Left Kidney Cyst"
+        },
+        "kidney_cyst_right": {
+            "snomed_code": "309578006",
+            "snomed_meaning": "Cyst of right kidney",
+            "category_code": "49755003",
+            "category_meaning": "Morphologically altered structure",
+            "display_label": "Right Kidney Cyst"
+        },
+        "sacrum": {
+            "snomed_code": "54735007",
+            "snomed_meaning": "Sacral vertebral column",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Sacrum"
+        },
+        "vertebrae_S1": {
+            "snomed_code": "20985002",
+            "snomed_meaning": "First sacral vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra S1"
+        },
+        "vertebrae_L5": {
+            "snomed_code": "49668003",
+            "snomed_meaning": "Fifth lumbar vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra L5"
+        },
+        "vertebrae_L4": {
+            "snomed_code": "11994002",
+            "snomed_meaning": "Fourth lumbar vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra L4"
+        },
+        "vertebrae_L3": {
+            "snomed_code": "36470004",
+            "snomed_meaning": "Third lumbar vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra L3"
+        },
+        "vertebrae_L2": {
+            "snomed_code": "14293000",
+            "snomed_meaning": "Second lumbar vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra L2"
+        },
+        "vertebrae_L1": {
+            "snomed_code": "66794005",
+            "snomed_meaning": "First lumbar vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra L1"
+        },
+        "vertebrae_T12": {
+            "snomed_code": "23215003",
+            "snomed_meaning": "Twelfth thoracic vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra T12"
+        },
+        "vertebrae_T11": {
+            "snomed_code": "12989004",
+            "snomed_meaning": "Eleventh thoracic vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra T11"
+        },
+        "vertebrae_T10": {
+            "snomed_code": "7610001",
+            "snomed_meaning": "Tenth thoracic vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra T10"
+        },
+        "vertebrae_T9": {
+            "snomed_code": "82687006",
+            "snomed_meaning": "Ninth thoracic vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra T9"
+        },
+        "vertebrae_T8": {
+            "snomed_code": "11068009",
+            "snomed_meaning": "Eighth thoracic vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra T8"
+        },
+        "vertebrae_T7": {
+            "snomed_code": "89013002",
+            "snomed_meaning": "Seventh thoracic vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra T7"
+        },
+        "vertebrae_T6": {
+            "snomed_code": "45048000",
+            "snomed_meaning": "Sixth thoracic vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra T6"
+        },
+        "vertebrae_T5": {
+            "snomed_code": "56401006",
+            "snomed_meaning": "Fifth thoracic vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra T5"
+        },
+        "vertebrae_T4": {
+            "snomed_code": "73071006",
+            "snomed_meaning": "Fourth thoracic vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra T4"
+        },
+        "vertebrae_T3": {
+            "snomed_code": "1186895000",
+            "snomed_meaning": "Third thoracic vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra T3"
+        },
+        "vertebrae_T2": {
+            "snomed_code": "53733008",
+            "snomed_meaning": "Second thoracic vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra T2"
+        },
+        "vertebrae_T1": {
+            "snomed_code": "64864005",
+            "snomed_meaning": "First thoracic vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra T1"
+        },
+        "vertebrae_C7": {
+            "snomed_code": "87391001",
+            "snomed_meaning": "Seventh cervical vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra C7"
+        },
+        "vertebrae_C6": {
+            "snomed_code": "36054005",
+            "snomed_meaning": "Sixth cervical vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra C6"
+        },
+        "vertebrae_C5": {
+            "snomed_code": "36978003",
+            "snomed_meaning": "Fifth cervical vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra C5"
+        },
+        "vertebrae_C4": {
+            "snomed_code": "5765005",
+            "snomed_meaning": "Fourth cervical vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra C4"
+        },
+        "vertebrae_C3": {
+            "snomed_code": "113205007",
+            "snomed_meaning": "Third cervical vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra C3"
+        },
+        "vertebrae_C2": {
+            "snomed_code": "39976000",
+            "snomed_meaning": "Second cervical vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra C2"
+        },
+        "vertebrae_C1": {
+            "snomed_code": "14806007",
+            "snomed_meaning": "First cervical vertebra",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Vertebra C1"
+        },
+        "heart": {
+            "snomed_code": "80891009",
+            "snomed_meaning": "Heart structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Heart"
+        },
+        "aorta": {
+            "snomed_code": "15825003",
+            "snomed_meaning": "Aortic structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Aorta"
+        },
+        "pulmonary_vein": {
+            "snomed_code": "122972007",
+            "snomed_meaning": "Pulmonary venous structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Pulmonary Vein"
+        },
+        "brachiocephalic_trunk": {
+            "snomed_code": "425444002",
+            "snomed_meaning": "Brachiocephalic trunk",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Brachiocephalic Trunk"
+        },
+        "subclavian_artery_right": {
+            "snomed_code": "21440002",
+            "snomed_meaning": "Right subclavian artery",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Subclavian Artery"
+        },
+        "subclavian_artery_left": {
+            "snomed_code": "49367005",
+            "snomed_meaning": "Left subclavian artery",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Subclavian Artery"
+        },
+        "common_carotid_artery_right": {
+            "snomed_code": "32062004",
+            "snomed_meaning": "Right common carotid artery",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Common Carotid Artery"
+        },
+        "common_carotid_artery_left": {
+            "snomed_code": "113263003",
+            "snomed_meaning": "Left common carotid artery",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Common Carotid Artery"
+        },
+        "brachiocephalic_vein_left": {
+            "snomed_code": "72021004",
+            "snomed_meaning": "Left brachiocephalic vein",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Brachiocephalic Vein"
+        },
+        "brachiocephalic_vein_right": {
+            "snomed_code": "48345005",
+            "snomed_meaning": "Right brachiocephalic vein",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Brachiocephalic Vein"
+        },
+        "atrial_appendage_left": {
+            "snomed_code": "68300000",
+            "snomed_meaning": "Left atrial appendage",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Atrial Appendage"
+        },
+        "superior_vena_cava": {
+            "snomed_code": "8629005",
+            "snomed_meaning": "Superior vena cava structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Superior Vena Cava"
+        },
+        "inferior_vena_cava": {
+            "snomed_code": "64131007",
+            "snomed_meaning": "Inferior vena cava structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Inferior Vena Cava"
+        },
+        "portal_vein_and_splenic_vein": {
+            "snomed_code": "32764006",
+            "snomed_meaning": "Portal vein structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Portal & Splenic Vein"
+        },
+        "iliac_artery_left": {
+            "snomed_code": "73634005",
+            "snomed_meaning": "Left common iliac artery",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Iliac Artery"
+        },
+        "iliac_artery_right": {
+            "snomed_code": "81040000",
+            "snomed_meaning": "Right common iliac artery",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Iliac Artery"
+        },
+        "iliac_vena_left": {
+            "snomed_code": "63507001",
+            "snomed_meaning": "Left common iliac vein",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Iliac Vein"
+        },
+        "iliac_vena_right": {
+            "snomed_code": "46027005",
+            "snomed_meaning": "Right common iliac vein",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Iliac Vein"
+        },
+        "humerus_left": {
+            "snomed_code": "85050009",
+            "snomed_meaning": "Left humerus",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Humerus"
+        },
+        "humerus_right": {
+            "snomed_code": "70105008",
+            "snomed_meaning": "Right humerus",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Humerus"
+        },
+        "scapula_left": {
+            "snomed_code": "91775009",
+            "snomed_meaning": "Left scapula",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Scapula"
+        },
+        "scapula_right": {
+            "snomed_code": "91774008",
+            "snomed_meaning": "Right scapula",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Scapula"
+        },
+        "clavicula_left": {
+            "snomed_code": "720617006",
+            "snomed_meaning": "Left clavicle",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Clavicle"
+        },
+        "clavicula_right": {
+            "snomed_code": "720616002",
+            "snomed_meaning": "Right clavicle",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Clavicle"
+        },
+        "femur_left": {
+            "snomed_code": "71341001",
+            "snomed_meaning": "Left femur",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Femur"
+        },
+        "femur_right": {
+            "snomed_code": "24136001",
+            "snomed_meaning": "Right femur",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Femur"
+        },
+        "hip_left": {
+            "snomed_code": "287679003",
+            "snomed_meaning": "Left hip bone",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Hip"
+        },
+        "hip_right": {
+            "snomed_code": "287579007",
+            "snomed_meaning": "Right hip bone",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Hip"
+        },
+        "spinal_cord": {
+            "snomed_code": "2748008",
+            "snomed_meaning": "Spinal cord structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Spinal Cord"
+        },
+        "gluteus_maximus_left": {
+            "snomed_code": "206049002",
+            "snomed_meaning": "Left gluteus maximus muscle",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Gluteus Maximus"
+        },
+        "gluteus_maximus_right": {
+            "snomed_code": "206050002",
+            "snomed_meaning": "Right gluteus maximus muscle",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Gluteus Maximus"
+        },
+        "gluteus_medius_left": {
+            "snomed_code": "206052005",
+            "snomed_meaning": "Left gluteus medius muscle",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Gluteus Medius"
+        },
+        "gluteus_medius_right": {
+            "snomed_code": "206053000",
+            "snomed_meaning": "Right gluteus medius muscle",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Gluteus Medius"
+        },
+        "gluteus_minimus_left": {
+            "snomed_code": "206055007",
+            "snomed_meaning": "Left gluteus minimus muscle",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Gluteus Minimus"
+        },
+        "gluteus_minimus_right": {
+            "snomed_code": "206056008",
+            "snomed_meaning": "Right gluteus minimus muscle",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Gluteus Minimus"
+        },
+        "autochthon_left": {
+            "snomed_code": "44947003",
+            "snomed_meaning": "Left erector spinae muscle",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Autochthon (Erector Spinae)"
+        },
+        "autochthon_right": {
+            "snomed_code": "44947003",
+            "snomed_meaning": "Right erector spinae muscle",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Autochthon (Erector Spinae)"
+        },
+        "iliopsoas_left": {
+            "snomed_code": "68455001",
+            "snomed_meaning": "Left iliopsoas muscle",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left Iliopsoas"
+        },
+        "iliopsoas_right": {
+            "snomed_code": "68455001",
+            "snomed_meaning": "Right iliopsoas muscle",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right Iliopsoas"
+        },
+        "brain": {
+            "snomed_code": "12738006",
+            "snomed_meaning": "Brain structure",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Brain"
+        },
+        "skull": {
+            "snomed_code": "89546000",
+            "snomed_meaning": "Bone structure of cranium",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Skull"
+        },
+        "rib_left_1": {
+            "snomed_code": "48535007",
+            "snomed_meaning": "Left first rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left 1st Rib"
+        },
+        "rib_left_2": {
+            "snomed_code": "78275009",
+            "snomed_meaning": "Left second rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left 2nd Rib"
+        },
+        "rib_left_3": {
+            "snomed_code": "25888004",
+            "snomed_meaning": "Left third rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left 3rd Rib"
+        },
+        "rib_left_4": {
+            "snomed_code": "25523003",
+            "snomed_meaning": "Left fourth rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left 4th Rib"
+        },
+        "rib_left_5": {
+            "snomed_code": "15339008",
+            "snomed_meaning": "Left fifth rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left 5th Rib"
+        },
+        "rib_left_6": {
+            "snomed_code": "59558009",
+            "snomed_meaning": "Left sixth rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left 6th Rib"
+        },
+        "rib_left_7": {
+            "snomed_code": "24915002",
+            "snomed_meaning": "Left seventh rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left 7th Rib"
+        },
+        "rib_left_8": {
+            "snomed_code": "5953002",
+            "snomed_meaning": "Left eighth rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left 8th Rib"
+        },
+        "rib_left_9": {
+            "snomed_code": "22565002",
+            "snomed_meaning": "Left ninth rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left 9th Rib"
+        },
+        "rib_left_10": {
+            "snomed_code": "77644006",
+            "snomed_meaning": "Left tenth rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left 10th Rib"
+        },
+        "rib_left_11": {
+            "snomed_code": "58830002",
+            "snomed_meaning": "Left eleventh rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left 11th Rib"
+        },
+        "rib_left_12": {
+            "snomed_code": "43993008",
+            "snomed_meaning": "Left twelfth rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Left 12th Rib"
+        },
+        "rib_right_1": {
+            "snomed_code": "73201001",
+            "snomed_meaning": "Right first rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right 1st Rib"
+        },
+        "rib_right_2": {
+            "snomed_code": "9847007",
+            "snomed_meaning": "Right second rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right 2nd Rib"
+        },
+        "rib_right_3": {
+            "snomed_code": "42692007",
+            "snomed_meaning": "Right third rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right 3rd Rib"
+        },
+        "rib_right_4": {
+            "snomed_code": "59685001",
+            "snomed_meaning": "Right fourth rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right 4th Rib"
+        },
+        "rib_right_5": {
+            "snomed_code": "41906003",
+            "snomed_meaning": "Right fifth rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right 5th Rib"
+        },
+        "rib_right_6": {
+            "snomed_code": "22681001",
+            "snomed_meaning": "Right sixth rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right 6th Rib"
+        },
+        "rib_right_7": {
+            "snomed_code": "72853009",
+            "snomed_meaning": "Right seventh rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right 7th Rib"
+        },
+        "rib_right_8": {
+            "snomed_code": "13120003",
+            "snomed_meaning": "Right eighth rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right 8th Rib"
+        },
+        "rib_right_9": {
+            "snomed_code": "36148005",
+            "snomed_meaning": "Right ninth rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right 9th Rib"
+        },
+        "rib_right_10": {
+            "snomed_code": "29980004",
+            "snomed_meaning": "Right tenth rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right 10th Rib"
+        },
+        "rib_right_11": {
+            "snomed_code": "72670001",
+            "snomed_meaning": "Right eleventh rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right 11th Rib"
+        },
+        "rib_right_12": {
+            "snomed_code": "12611008",
+            "snomed_meaning": "Right twelfth rib",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Right 12th Rib"
+        },
+        "sternum": {
+            "snomed_code": "56873002",
+            "snomed_meaning": "Bone structure of sternum",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Sternum"
+        },
+        "costal_cartilages": {
+            "snomed_code": "43799004",
+            "snomed_meaning": "Costal cartilage",
+            "category_code": "123037004",
+            "category_meaning": "Body structure",
+            "display_label": "Costal Cartilages"
+        }
+    }
 }
