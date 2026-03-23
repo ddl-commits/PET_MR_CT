@@ -8,7 +8,6 @@ import highdicom as hd
 import nibabel as nib
 import numpy as np
 import pydicom
-import pytest
 
 from pet_mr_ct.convert.nifti_to_dcmseg import create_dcmseg
 
